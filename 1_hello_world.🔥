@@ -1,0 +1,13 @@
+## Mojo is a modular programming, so our code should be in modular. 
+## To print hellow world, will create a function. 
+
+fn main(): 
+    print("hello world")
+
+# Or you can run like this 
+let im_mutable_variable = "hello world!"
+
+fn main2(): 
+    print(im_mutable_variable)
+
+main2() 

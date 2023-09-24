@@ -1,0 +1,19 @@
+
+'''
+## Variable types 
+
+1. let -> constant that cannot change (immutable) (runtime)
+2. var -> not a constant, can change (mutable) 
+3. alias -> It stores the variable at compile time (immutable) (compile time)
+            It essentially same as "let" 
+
+#### Compile time -> converting your code to binary 
+#### run time -> running the code itself 
+'''
+
+fn main(): 
+    let x = 3
+    print(x) 
+
+
+main()
