@@ -1,0 +1,19 @@
+""" 
+Single Instruction Multiple Data (SIMD) is a coolest data type ever. For Example: You want to multiply the some number to the list. 
+  2 x [1, 2, 3, 4] 
+Normal python will take the number and do the multiplication one by one but SIMD do this in 1 opertion. 
+""" 
+
+fn main(): 
+    let x = SIMD[DType.float16, 4](1, 4, 9, 16) # SIMD[DType.data_type(all_small), len_of_list](list)
+    # If the list len is 5, it just takes first 4 element only. 
+    # you can do lot of operations 
+    print(x*2) ## one single operation 
+
+
+fn add[datatype:DType, length: Int](a: SIMD[datatype, length], b:SIMD[datatype, length]) -> SIMD[datatype, length]: 
+    return a+b 
+
+fn main2(): 
+    let x = SIMD[DType.float18, 4](1, 4, 9, 1)
+    print(add(x, x))

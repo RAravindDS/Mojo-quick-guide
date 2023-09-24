@@ -1,0 +1,13 @@
+"""
+This is the game changer. This helps to do parallelizing the whole code
+
+#decoratos 
+## @unroll 
+-> For example you are running a loop it takes 10 iterations. We can unroll this to each iteration separately so all the iteration
+   will done by same time 
+
+"""
+
+fn main(): 
+    @unroll 
+    for i in range(10): # instead of sequentially running it you are unrolling to individual iterations and doing one go. 

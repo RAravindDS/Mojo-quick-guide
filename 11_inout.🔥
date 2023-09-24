@@ -1,0 +1,30 @@
+# functions arguments like inout, borrowed, owned
+
+## 1. Inout 
+## -> We can specify the inout in function that means changes made INSIDE the function will visible OUTSIDE the function also. 
+
+## 2. Borrowed 
+## -> It means the variable is immutable 
+
+## 3. owned 
+## -> This means the variable is owned by the function you can do whatever you want. 
+## for example: you initialized the variable with let, after the owned argument you can change to mutable also 
+
+fn add_nums_inout(inout a:Int8, inout b:Int8) -> Int8: 
+    a = 3 
+    b = 2 
+    return a + b 
+
+fn add_nums_borrowed(borrowed a:Int8, borrowed b:Int8) -> Int8: 
+    return a + b
+
+fn add_nums_owned(owned a:Int8, owned b:Int8) -> Int8: 
+    a = 3 
+    b = 3
+    return a + b  
+
+
+fn main(): 
+    let a: Int8 = 4 
+    let b: Int8 = 5 
+    print(add_nums(a, b))

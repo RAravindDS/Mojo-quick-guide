@@ -10,7 +10,7 @@
 **Memory safety**: Mojo is a memory-safe language, which means that it is less likely to crash due to memory errors.
 
 ### Insights:
-* Mojo is 77k faster than python in some cases.
+* Mojo is 68k faster than python in some cases.
 * Python is very slow to train a model but by using Mojo we can do it very fast.
 
 
@@ -43,4 +43,10 @@
 
 > **`alias`** -> It stores the variable at compile time. It's little faster and memory efficient way. It's im-mutable.
 
-## 2. 
+Remain the check the 🔥 files. 
+
+## Awesome things in 🔥
+* You can create a executable file using mojo build, this is very usefull for production case. 
+* You can build a pacakge in 🔥. Read the docx for it. 
+* Mojo CLI has lot of future. Check it out. 
+* It has meta programming (decorators) feature. 
