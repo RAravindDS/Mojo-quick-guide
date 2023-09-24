@@ -1,0 +1,19 @@
+""" 
+🔥has for error handling key words 
+    1. raises 
+    2. try 
+    3. except 
+    4. finally 
+
+## try, except, finally is same as python 
+"""
+
+fn main() raises: #raises -> The function may or may not be raise a error (we are telling to mojo) 
+    try: 
+        print('open file') 
+
+    except: 
+        raise Error("encoding is messy") 
+
+    finally: 
+        print("finally closed")

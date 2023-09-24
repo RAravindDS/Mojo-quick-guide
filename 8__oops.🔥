@@ -1,5 +1,6 @@
-# In mojo we can create a class using "struct" keyword 
+## Normal Class 
 
+# In mojo we can create a class using "struct" keyword 
 struct Banana: 
     ## Let's define the variable 
     var FirstVariable : Bool 
@@ -23,5 +24,7 @@ struct Banana:
 
 
 fn main(): 
-    var banana = Banana(False, 4.7, "yellow")
+    let banana = Banana(False, 4.7, "yellow")
     print(banana.rype(banana)) 
+
+## Inheritance isn't exists in the mojo :( 
