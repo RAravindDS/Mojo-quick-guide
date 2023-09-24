@@ -1,0 +1,11 @@
+## Loops are same as python both (for loop and while) but here let's see how to use list here 
+## In mojo arrays are not exists, so we are taking a help of python to create a list here 
+
+from python import PythonObject ## list is a python object, so we are importing PythonObject 
+
+
+fn main() raises: 
+    let x: PythonObject = [2, 4, 6, 8, 10] ## this is a python list 
+    for i in range(x): 
+        print(i)
+

@@ -1,0 +1,14 @@
+# Let's see how to get the user input in python 
+
+
+## we need to import the python library for this 
+from python import Python 
+
+fn main() raises:  # we use raises if the function will raise the error 
+    let py = Python.import_module("builtins") ## essentially we are importing the "builtins" module 
+                                              ## This is default in python, it imports automatically 
+    let user_input = py.input("what is your cute name?")  ## input exists in the inbuilt module in the python 
+    print(f"Your sweet name is {user_input}")
+
+    
+    
