@@ -1,0 +1,15 @@
+## let's create a function 
+## fn is used to create a function 
+
+fn main(): 
+    print(addNumbers(2, 3)) 
+    #There is no restriction you can have the function above or bellow, doesn't matter 
+
+fn addNumbers(a:Int, b:Int) -> Int: 
+    let c:Int = a + b
+    return c 
+
+fn addNumbers64(a:Int8, b:Int8) -> Int64: 
+    let c:Int64 = a + b 
+    return c 
+

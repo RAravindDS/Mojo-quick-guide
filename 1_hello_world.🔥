@@ -1,7 +1,7 @@
 ## Mojo is a modular programming, so our code should be in modular. 
 ## To print hellow world, will create a function. 
 
-fn main(): 
+fn main():  # It calles the main function by default (you don't need to call it down or up)
     print("hello world")
 
 # Or you can run like this 

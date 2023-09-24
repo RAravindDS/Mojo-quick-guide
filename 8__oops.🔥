@@ -1,0 +1,27 @@
+# In mojo we can create a class using "struct" keyword 
+
+struct Banana: 
+    ## Let's define the variable 
+    var FirstVariable : Bool 
+    var SecondVariable: Float32
+    var ThirdVariable: String 
+
+    ## let's initialize the constructor 
+    fn __init__(inout self, FirstVariable:Bool, SecondVariable:Float32, ThirdVariable:String): 
+        self.FirstVariable = FirstVariable
+        self.SecondVariable = SecondVariable
+        Self.ThirdVariable = ThirdVariable
+
+    fn FirstVariable(self, rhs:Banana) -> Bool:  # right hand side (its a common pratice)
+        return self.FirstVariable 
+
+    fn SecondVariable(self, rhs:Banana) -> Float32: 
+        return self.SecondVariable
+
+    fn ThirdVariable(self, rhs:Banana) -> String:
+        return self.ThirdVariable 
+
+
+fn main(): 
+    var banana = Banana(False, 4.7, "yellow")
+    print(banana.rype(banana)) 
