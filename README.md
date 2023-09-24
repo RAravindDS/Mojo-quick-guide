@@ -37,7 +37,7 @@
 ## 1. Variables in 🔥
 <b>We have different kinds of varaiable initialization in mojo. Let's see one by one. </b>
 
-> **`let`** -> It's im-mutable variable, it cannot change. It directly goes runtime.
+> **`let`** -> It's im-mutable variable, it cannot change. It directly goes runtime. It's compile time. 
 
 > **`var`** -> It's a mutable variable, it can change. It's specifically for runtime, it allows argument to be mutable.
 

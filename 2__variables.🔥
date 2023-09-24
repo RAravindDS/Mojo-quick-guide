@@ -3,12 +3,12 @@
 ## Variable types 
 
 1. let -> constant that cannot change (immutable) (runtime)
-2. var -> not a constant, can change (mutable) 
+2. var -> not a constant, can change (mutable) (runtime)
 3. alias -> It stores the variable at compile time (immutable) (compile time)
-            It essentially same as "let" 
-
-#### Compile time -> converting your code to binary 
-#### run time -> running the code itself 
+            It essentially same as "let". It's highly used in packages.  
+## Appendix
+Compile time -> converting your code to binary 
+run time -> running the code itself 
 '''
 
 fn main(): 

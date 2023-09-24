@@ -1,0 +1,35 @@
+""" 
+We have bunch of differnet types of data types exist. 
+    1. String 
+    2. Integer 
+    3. Float 
+    4. Bool 
+    6. unit 
+
+"""
+
+fn string(): 
+    let x: String = "you can use single and double quotes" 
+    print(x) 
+
+fn integer(): 
+    let a: Int = 6000
+    let b: Int8 = 6000 ## 8 bit occupies in the memory 
+    let c: Int16 = 6000 
+    let d: Int64 = 6000  ## Default one 
+
+fn uint(): ## we need to write a number after the datatype for how much bits it will occupy. 
+    let x: UInt8 = 6000
+    let y: UInt16 = 6000 
+    let z: UInt64 = 6000 
+
+fn float(): 
+    let a: Float16 = 6.8 # lower precision 
+    let b: Float32 = 6.8 
+    let c: Float64 = 6.8
+
+fn bool(): 
+    let a: Bool = True
+    let b: Bool = False 
+
+
